@@ -41,7 +41,7 @@ const IMG = {
 // Flans RÉELS issus des posts @flanterie (citations, prix, adresses vérifiés).
 export const flans: Flan[] = [
   { id: 'f1', name: 'Flan vanille', bakery: 'Séline Pâtisserie', handle: '@seline_patisserie', image: IMG.overhead, tags: ['vanille', 'équilibré'], description: '« Un vrai petit bonbon, aussi gourmand qu’équilibré. »' },
-  { id: 'f2', name: 'Flan', bakery: 'Plein Cœur', handle: '@pleincoeur_official', city: 'Paris', address: '64 rue des Batignolles', price: '9 €', image: IMG.vogue, tags: ['texture fluide'], description: '« Texture ultra fluide, qui laisse plus de place à la pâte. »' },
+  { id: 'f2', name: 'Flan', bakery: 'Plein Cœur', handle: '@pleincoeur_official', city: 'Paris', address: '64 rue des Batignolles', price: '9 €', image: IMG.overhead, tags: ['texture fluide'], description: '« Texture ultra fluide, qui laisse plus de place à la pâte. »' },
   { id: 'f3', name: 'Flan vanille', bakery: 'Capsule Pâtisserie', handle: '@lacapsulepatisserie', city: 'Saint-Maur-des-Fossés', price: '4,30 €', image: IMG.slate, crust: 'sablée', texture: 'mousseuse', taste: 'vanille', tags: ['sablée', 'mousseuse', 'vanille'] },
   { id: 'f4', name: 'Flan', bakery: 'La Panifacture', handle: '@lapanifacture', image: IMG.pistache, tags: ['généreux'], description: '« Je pourrais le manger tous les matins. »' },
 ];
